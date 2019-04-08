@@ -12,10 +12,10 @@ It is based off of the template found
 ### Installation
 Either
 
-run `make install`.
+run `make install`
 
 or
 
-move the compiled binary and manifest.toml to a directory located in
-`$XI\_CONFIG\_DIR/plugins`. Within that directory, the binary should be placed
+move the compiled binary and `manifest.toml` to a directory located in
+`$XI_CONFIG_DIR/plugins`. Within that directory, the binary should be placed
 in a `bin/` subdirectory.
