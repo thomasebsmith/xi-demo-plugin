@@ -1,0 +1,20 @@
+[package]
+name = "xi-demo-plugin"
+version = "0.1.0"
+authors = ["Thomas Smith <thsm@umich.edu>"]
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0"
+
+[dependencies.xi-plugin-lib]
+path = "../xi-mac/xi-editor/rust/plugin-lib"
+
+[dependencies.xi-core-lib]
+path = "../xi-mac/xi-editor/rust/core-lib"
+
+[dependencies.xi-rope]
+path = "../xi-mac/xi-editor/rust/rope"
+
+[dependencies.xi-trace]
+path = "../xi-mac/xi-editor/rust/trace"
